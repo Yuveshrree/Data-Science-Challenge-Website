@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Data Sciene Test</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+    <link rel="stylesheet" type="text/css" href="js/fullPage.js-master/jquery.fullPage.css"/>
+
+    <script src="js/fullPage.js-master/jquery.easings.min.js"></script>
+
+    <script>
+        if (screen && screen.width > 991) {
+        document.write('<script type="text/javascript" src="js/fullPage.js-master/jquery.fullPage.js"><\/script>');
+        }
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script>
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            css3: true,
+            anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+            menu: '#myMenu',
+            navigation: true,
+            navigationTooltips: ['Home','How it works','About','FAQs','Footer']
+        });
+    });
+</script>
+
+<style type="text/css">
+      #home_page {
+        background: url('images/banner.png');
+        background-size: cover;
+      }
+
+        @media screen and (min-width: 1200px) {
+        .w-container { max-width: 1170px; }
+        body,html { overflow: hidden !important; }
+        }
+        @media screen and (max-width: 768px) {
+        body,html { overflow: scroll; }
+        #home_page { padding-top: 5px; height: 100% }
+        }
+</style>
+
+</head>
+<body class="fp-responsive">
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" id="logo">
+        </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Challenges</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#" id="sign">Sign Up</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div id="fullpage">
+    <div class="section">
+        <div id="home_page">
+            <img src="images/icon.png" class="animated bounceInDown" id="icon">
+            <h1>
+                <span id="data">
+                    <span class="dl1 animated bounceInDown">D</span>
+                    <span class="dl2 animated bounceInDown">a</span>
+                    <span class="dl3 animated bounceInDown">t</span>
+                    <span class="dl4 animated bounceInDown">a</span>
+                </span>&nbsp;
+                <span id="science">
+                    <span class="sl1 animated bounceInDown">S</span>
+                    <span class="sl2 animated bounceInDown">c</span>
+                    <span class="sl3 animated bounceInDown">i</span>
+                    <span class="sl4 animated bounceInDown">e</span>
+                    <span class="sl5 animated bounceInDown">n</span>
+                    <span class="sl6 animated bounceInDown">c</span>
+                    <span class="sl7 animated bounceInDown">e</span>
+                </span>
+            </h1>
+            <p class="location animated bounceInDown"><i class="fa fa-map-marker"></i>  Location: Will be announced soon!!</p>
+            <h2 class="registration animated bounceInDown">Registration Starts on 30th August, 2017</h2>
+            <blockquote class="quote animated bounceInDown">
+                <p>“A Data Scientists strength lies solely in their tenacity.”</p>
+                <footer>
+                    Damian Mingle
+                </footer>
+            </blockquote>
+            <a href="#" class="btn btn-info animated fadeIn">Coming Soon</a>
+            <br>
+            <a href="#">
+                <i class="fa fa-chevron-down down_nav animated pulse"></i>
+            </a>
+        </div>
+    </div>
+    <div class="section">
+        <div class="main">
+            <div class="row">
+                <h2 class="work">How It Works</h2>
+                <div class="steps">
+                    <div class="col-md-4 col-sm-4 col-xs-4 work">
+                        <div class="round center-block">
+                            <i class="fa fa-credit-card"></i>
+                        </div>
+                        <h3>Apply</h3>
+                        <p>Click on the apply button, fill in your details</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 work">
+                        <div class="round center-block">
+                            <i class="fa fa-calendar"></i>
+                        </div>
+                        <h3>Attend</h3>
+                        <p>Keep your schedule free on the big day</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 work">
+                        <div class="round center-block">
+                            <i class="fa fa-code"></i>
+                        </div>
+                        <h3>Code</h3>
+                        <p>Solve a Machine learning problem</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 work">
+                        <div class="round center-block">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <h3>Build</h3>
+                        <p>Build a Mobile application</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 work">
+                        <div class="round center-block">
+                            <i class="fa fa-pencil-square-o"></i>
+                        </div>
+                        <h3>Submit</h3>
+                        <p>After you are done with the code, submit the same.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 work">
+                        <div class="round center-block">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <h3>Prize</h3>
+                        <p>Win cash prizes and much more goodies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="about">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <h2>About Data Science Challenge</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</li>
+                            <li>Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</li>
+                            <li>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur.</li>
+                            <li>Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                            <li>Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 org">
+                        <h2>Organizers</h2>
+                        <div class="col-md-2 col-sm-2 col-xs-5">
+                            <img src="images/icon.png" id="icon_1">
+                        </div>
+                        <div class="col-md-9 col-sm-9 organizers">
+                            <p>The one platform created on unearth true potential and helping you showcase your best abilities. On Skillenza you can put your best foot forward through carefully curated content and challenges and have access to the hottest jobs in the market.Our hiring partners range from established companies like Amazon, Dell and Oracle to startups like Olacabs, Housing and Stayzilla.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="queries">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <h2>FAQ</h2>
+                        <p>Under the FAQ section, you will find answers to the most commonly asked questions about our challenges.</p>
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-9 questions">
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" data-target="#q1">
+                                         Is it open to all?
+                                     </h4>
+                                </div>
+                                <div id="q1" class="panel-collapse collapse">
+                                    <div class="panel-body">Yes, it is open to all of them out there.</div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#q2">
+                                            Is it an individual or team challenge?
+                                    </h4>
+                                </div>
+                                <div id="q2" class="panel-collapse collapse">
+                                    <div class="panel-body">You can work individually or in a team of two.</div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#q3">
+                                         When and where can I apply?
+                                     </h4>
+                                </div>
+                                <div id="q3" class="panel-collapse collapse">
+                                    <div class="panel-body">We will begin accepting applications for the program from Aug 11, 2017 onwards. You will have to create an account on Skillenza’s platform. The registration process is completely free.</div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                     <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#q4">
+                                         Does it cost me anything?
+                                     </h4>
+                                </div>
+                                <div id="q4" class="panel-collapse collapse">
+                                    <div class="panel-body">Nope. Nothing. Nada. Zilch. All you have to do is to register for free on our platform. Then you will complete access to all our learning resources and contests.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="forum">
+                            <h2>Discussion Forum</h2>
+                            <div class="box">
+                                <h4>Comments</h4>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control input-lg" value="Join the discussion" id="comment">
+                                        <p><a href="#"> Log in</a>  to join the discussion</p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section fp-auto-height">
+        <footer class="footer-bg">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+                        <h4>Company</h4>
+                        <p><a href="">About</a></p>
+                        <p><a href="">Team</a></p>
+                        <p><a href="">Media</a></p>
+                        <p><a href="">Investors</a></p>
+                        <p><a href="">Contact Us</a></p>
+                        <p><a href="">Blog</a></p>
+                        <p><a href="">Careers</a></p>
+                    </div>
+                    <div class="col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+                        <h4>Resources</h4>
+                        <p><a href="">Events</a></p>
+                        <p><a href="">API</a></p>
+                        <p><a href="">Videos</a></p>
+                        <p><a href="">Guides</a></p>
+                        <p><a href="">Partners</a></p>
+                    </div>
+                    <div class="col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+                        <h4>Users</h4>
+                        <p><a href="">Communications</a></p>
+                        <p><a href="">Ranking</a></p>
+                        <p><a href="">Environment</a></p>
+                        <p><a href="">FAQs</a></p>
+                        <p><a href="">Signup</a></p>
+                        <p><a href="">Practice</a></p>
+                        <p><a href="">Hackpacks</a></p>
+                    </div>
+                    <div class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                        <h4>Enterprise</h4>
+                        <p><a href="">Talent Branding & Hiring</a></p>
+                        <p><a href="">Developer Evangleism</a></p>
+                        <p><a href="">Digital Disruption</a></p>
+                        <p><a href="">Learning & Development</a></p>
+                    </div>
+                    <div class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                        <h4>Connect</h4>
+                        <p><a href="#">Twitter</a></p>
+                        <p><a href="#">Facebook</a></p>
+                        <p><a href="#">LinkedIn</a></p>
+                        <p><a href="#">Google</a></p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="margin-top: 35px;">
+                            <p>2nd Floor, 514/A,<br>Chinmaya Mission Hospital Rd,<br>Indiranagar, Bengaluru KA 560038
+                            <br> P: (+91) 8041 202 465</p>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <img src="images/icon.png" id="icon_2">
+                            <p>Skillenza</p>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="margin-top: 55px;">
+                            <p>&copy; 2017 Skillenza</p>
+                            <p><a href="">Sitemap</a>  |  <a href="">Terms Of Service</a>  |  <a href="">Privacy Policy</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>
